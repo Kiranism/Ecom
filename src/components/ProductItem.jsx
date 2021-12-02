@@ -10,24 +10,28 @@ const Container = styled.div`
   margin: 5px;
 `;
 
+const Info = styled.div``;
+
 const Circle = styled.div``;
+
+const Title = styled.h1``;
 
 const Image = styled.img`
   height: 75%;
   z-index: 2;
 `;
 
-const Info = styled.div``;
-
 const Icon = styled.div``;
 
-const ProductItem = (item) => {
+const ProductItem = ({ item }) => {
   return (
     <Container>
       <Circle />
-      <Image src={item.img} />
+
       <Info>
         <Icon>
+          <Image src={item.img} />
+          <Title>{item.title}</Title>
           <ShoppingCartOutlined />
         </Icon>
         <Icon>
