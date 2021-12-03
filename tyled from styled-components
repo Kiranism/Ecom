@@ -1,0 +1,41 @@
+[33mcommit 37013442af69a98c02a9fbe4f76b3452ce209a13[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Fri Dec 3 13:28:42 2021 +0530
+
+    product page added!
+
+[33mcommit 76d39d0adb9bc60299d94924e9829007fdebbf11[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Fri Dec 3 12:14:20 2021 +0530
+
+    product list page added!
+
+[33mcommit fbdc2fe5571aa99ec9566d562ddac52817bdd868[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Fri Dec 3 00:38:42 2021 +0530
+
+    home page done
+
+[33mcommit 05b0540fc68bf12f44bad89577df7dc0eb74b7d0[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Thu Dec 2 22:53:54 2021 +0530
+
+    damn i missed {} for passing props!
+
+[33mcommit 7ae652e7d3cf75f5644502de849e386283f9e2b7[m[33m ([m[1;32mstarter[m[33m)[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Thu Dec 2 22:29:24 2021 +0530
+
+    categories added
+
+[33mcommit 1cf048b10fe89af19f03c8a4334121e6f7459992[m[33m ([m[1;31morigin/starter[m[33m)[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Wed Dec 1 21:23:01 2021 +0530
+
+    starter
+
+[33mcommit 96b8540c07b63976420af71d90b8b6cf08457cb0[m
+Author: Kiranism <iamkiran2831@gmail.com>
+Date:   Wed Dec 1 21:05:13 2021 +0530
+
+    Initialize project using Create React App
