@@ -11,7 +11,7 @@ const Container = styled.div`
     ),
     url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
       center;
-
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
 `;
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
 `;
 
 const Form = styled.form`
