@@ -8,9 +8,11 @@ import {
   Twitter,
 } from "@material-ui/icons";
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -23,6 +25,7 @@ const Left = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
@@ -82,12 +85,11 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>Shopify</Logo>
+        <Logo>Wohoo!</Logo>
         <Desc>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quo
-          dicta ipsum, pariatur repellat, labore a assumenda consequuntur
-          debitis fugiat nulla reprehenderit cum corporis quasi error dolor
-          dolorum, saepe doloremque.
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don’t look even slightly believable.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
@@ -122,14 +124,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South
-          Tobinchester 98336
+          <Room style={{ marginRight: "10px" }} /> 622 Namaoru , Bengaluru 98336
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+          <MailOutline style={{ marginRight: "10px" }} /> contact@wohoo.in
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
